@@ -1,11 +1,6 @@
 import { writeFileSync } from "fs";
 import { resolve } from "path";
-
-var imageList = require('./2019-SMG-PVA-PZJS.json');
-var partA = require('./2019PVA-PartA.json')
-var partC = require('./2019PVA-PartC.json')
-var combination = require('./纯电动CBC组合设计-20190418.json')
-var combinationResList = require('./纯电动CBC组合设计-结果-20190418.json')
+import { imageList, partA, partC, combination, combinationResList } from './index';
 
 // 类别
 const classifyList = [

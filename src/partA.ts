@@ -1,11 +1,7 @@
-import { writeFileSync } from "fs";
+import { writeFileSync, fstat } from "fs";
 import { resolve } from "path";
 
-var imageList = require('./2019-SMG-PVA-PZJS.json');
-var partA = require('./2019PVA-PartA.json')
-// var partC = require('../data-and-transformers/2019PVA-PartC.json')
-// var combination = require('../data-and-transformers/纯电动CBC组合设计-20190418.json')
-// var combinationResList = require('../data-and-transformers/纯电动CBC组合设计-结果-20190418.json')
+import { imageList, partA, partC, combination, combinationResList } from './index';
 
 var preUrl = 'https://media.cform.io/2019-SGM-PVA-PZJS/';
 
